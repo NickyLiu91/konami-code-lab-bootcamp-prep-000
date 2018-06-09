@@ -4,22 +4,20 @@ var index = 0
 
 const body = document.body
 
-function init() {
-  body.addEventListener('keydown', function(e) {
-    const key = parseInt(e.detail || e.which)
+// function init() {
+//   body.addEventListener('keydown', function(e) {
+//     const key = parseInt(e.detail || e.which)
 
-    if (key === code[index]) {
+//     if (key === code[index]) {
 
-      if (index === code.length - 1) {
-        alert("YOU DID IT!")
-        index = 0
-      } else {
-        index++
-      }
-    } else {
-      index = 0
-    }
-  })
-}
-
-init()
+//       if (index === code.length - 1) {
+//         alert("YOU DID IT!")
+//         index = 0
+//       } else {
+//         index++
+//       }
+//     } else {
+//       index = 0
+//     }
+//   })
+// }
