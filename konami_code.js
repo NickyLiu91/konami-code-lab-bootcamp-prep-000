@@ -39,5 +39,5 @@ const codes = [
 function init() {
   document.body.addEventListener('keydown', function(e){
     
-  }
+  })
 }
