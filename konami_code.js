@@ -35,9 +35,14 @@ const codes = [
   "b",
   "a"
 ];
- 
+
+var index = 0
+
 function init() {
   document.body.addEventListener('keydown', function(e){
-    i
+    const key = e.key
+    
+    if (key === const[index].key)
+    
   })
 }
